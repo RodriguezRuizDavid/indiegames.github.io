@@ -360,7 +360,7 @@ footer {
     /********** MQ MÓVIL ***************/
     @media only screen and (width <= 600px){                
         #wrapper {width: 100%;}
-        #titulo {font-size: 3.5rem;
+        #titulo {font-size: 3.35rem;
                  width: 80%;}
         .gridejem {grid-template-columns: 100%;}
         .containerc {font-size: 2rem;}
