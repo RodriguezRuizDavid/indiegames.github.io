@@ -18,7 +18,7 @@
     }
     @font-face {
         font-family: textos;
-        src: url('./FONTS/Uni-Sans-Font/Uni\ Sans\ Heavy.otf')
+        src: url('./FONTS/Kayak\ Sans\ Regular.otf')
     }
     /***********************************/
 
@@ -143,7 +143,7 @@ nav {
 /********** SECCIÓN INTRO **********/
 .containeri2 {
     padding: 20px 32px;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 
 /***********************************/
@@ -173,7 +173,6 @@ nav {
     .containeri {
         position: relative;
         overflow: hidden;
-        width: 100%;
         padding-top: 56.25%;
     }
     /***********************************/
@@ -211,7 +210,7 @@ nav {
         filter: contrast(120%);
     }
     .containerc {
-        font-size: 1.03rem;
+        font-size: 1rem;
         padding: 4px 12px;
         background-color: rgb(37, 50, 167);
         margin-top: -4px;
@@ -231,7 +230,7 @@ nav {
 
     /********** BOTÓN EJEMPLOS *********/
     .boton {
-        font-size: 0.75rem;
+        font-size: 0.80rem;
         text-decoration: none;                                         /*quitar subrayado*/
         color: white;                                                /*color del texto*/
         font-weight: bold;                                             /*texto en negrita*/
@@ -246,7 +245,7 @@ nav {
         transition: 0.3s;                                              /*transicion de efecto*/
     }
     .boton2 {
-        font-size: 0.75rem;
+        font-size: 0.80rem;
         text-decoration: none;                                         /*quitar subrayado*/
         color: white;                                                /*texto en blanco*/
         font-weight: bold;                                             /*texto en negrita*/
@@ -336,6 +335,13 @@ footer {
 /***********************************/
 
 /********** MEDIA QUERIES **********/
+    @media only screen and (width <= 1150px){               
+        .gridejem {grid-template-columns: 50% 50%;}
+        #grid2 {grid-template-columns: 100%;}
+        .containerc {font-size: 1.35rem;}
+        .boton {font-size: 1.14rem;}
+        .boton2 {font-size: 1.14rem;}
+    }
     /********** MQ TABLET **************/
     @media only screen and (width <= 1000px){               
         #wrapper {width: 95%;}
@@ -343,15 +349,10 @@ footer {
                  width: 80%;}
         #vid {width: "560";
               height: "315";}
-        #grid2 {grid-template-columns: 100%;}
-        .gridejem {grid-template-columns: 50% 50%;}
-        .containerc {font-size: 1.35rem;}
-        .boton {font-size: 1.14rem;}
-        .boton2 {font-size: 1.14rem;}
         .gridfooter {grid-template-columns: 0% 50% 50%;
                      font-size: large;}
-        #fa {font-size: 0.85rem}
-        #faf {font-size: 0.85rem}
+        #fa {font-size: 0.87rem}
+        #faf {font-size: 0.87rem}
         #ancha {display: inline-block;
                 margin: auto;}
     }
@@ -360,14 +361,14 @@ footer {
     /********** MQ MÓVIL ***************/
     @media only screen and (width <= 600px){                
         #wrapper {width: 100%;}
-        #titulo {font-size: 3.35rem;
+        #titulo {font-size: 3.20rem;
                  width: 80%;}
         .gridejem {grid-template-columns: 100%;}
         .containerc {font-size: 2rem;}
         .boton {font-size: 1.9rem;}
         .boton2 {font-size: 1.9rem;}
-        .gridfooter {grid-template-columns: 0% 50% 50%;
-                     font-size: medium;}
+        #fa {font-size: 0.75rem}
+        #faf {font-size: 0.75rem}
     }
     /***********************************/
 /***********************************/
